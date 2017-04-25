@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="T" format="1">
+  <advance width="1407"/>
+  <unicode hex="0054"/>
+  <outline>
+    <contour>
+      <point x="814" y="1376" type="line"/>
+      <point x="608" y="1376" type="line"/>
+      <point x="608" y="0" type="line"/>
+      <point x="814" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="1415" y="1456" type="line"/>
+      <point x="8" y="1456" type="line"/>
+      <point x="8" y="1289" type="line"/>
+      <point x="1415" y="1289" type="line"/>
+    </contour>
+    <contour>
+      <point x="631.0" y="1600.0" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="633.0" y="0.0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="729.0" y="0.0" type="move" name="right"/>
+    </contour>
+    <contour>
+      <point x="638.0" y="897.0" type="move" name="cross"/>
+    </contour>
+    <contour>
+      <point x="1241.0" y="1600.0" type="move" name="top_dd"/>
+    </contour>
+    <contour>
+      <point x="1241.0" y="-407.0" type="move" name="bottom_dd"/>
+    </contour>
+    <contour>
+      <point x="1241.0" y="1600.0" type="move" name="top0315"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>1.0</real>
+        <real>0.4</real>
+        <real>1.0</real>
+        <real>1.0</real>
+      </array>
+    </dict>
+  </lib>
+</glyph>
