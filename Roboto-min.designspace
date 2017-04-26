@@ -10,6 +10,9 @@
         <axis default="0" maximum="12" minimum="0" name="slant" tag="slnt">
             <labelname xml:lang="en">Slant</labelname>
         </axis>
+        <axis default="1082" maximum="1200" minimum="1082" name="ytlowercase" tag="ytlc">
+            <labelname xml:lang="en">y transparent lowercase</labelname>
+        </axis>
     </axes>
     <sources>
         <source familyname="Roboto" filename="master_ufo/Roboto-Thin.ufo" name="Roboto-Thin.ufo" stylename="Thin">
@@ -17,6 +20,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="0" />
                 <dimension name="weight" xvalue="-1" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
         </source>
         <source familyname="Roboto" filename="master_ufo/Roboto-Regular.ufo" name="Roboto-Regular.ufo" stylename="Regular">
@@ -25,6 +29,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="0" />
                 <dimension name="weight" xvalue="-0.100000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
         </source>
         <source familyname="Roboto" filename="master_ufo/Roboto-Black.ufo" name="Roboto-Black.ufo" stylename="Black">
@@ -32,6 +37,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="0" />
                 <dimension name="weight" xvalue="1.125000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
         </source>
         <source familyname="Roboto" filename="master_ufo/Roboto-ThinItalic.ufo" name="Roboto-ThinItalic.ufo" stylename="Thin Italic">
@@ -39,6 +45,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="12" />
                 <dimension name="weight" xvalue="-1" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
         </source>
         <source familyname="Roboto" filename="master_ufo/Roboto-Italic.ufo" name="Roboto-Italic.ufo" stylename="Italic">
@@ -46,6 +53,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="12" />
                 <dimension name="weight" xvalue="-0.100000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
         </source>
         <source familyname="Roboto" filename="master_ufo/Roboto-BlackItalic.ufo" name="Roboto-BlackItalic.ufo" stylename="Black Italic">
@@ -53,6 +61,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="12" />
                 <dimension name="weight" xvalue="1.125000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
         </source>
         <source familyname="Roboto" filename="master_ufo/RobotoCondensed-Light.ufo" name="RobotoCondensed-Light.ufo" stylename="Condensed Light">
@@ -60,6 +69,7 @@
                 <dimension name="width" xvalue="0.870000" />
                 <dimension name="slant" xvalue="0" />
                 <dimension name="weight" xvalue="-0.550000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
         </source>
         <source familyname="Roboto" filename="master_ufo/RobotoCondensed-Regular.ufo" name="RobotoCondensed-Regular.ufo" stylename="Condensed Regular">
@@ -67,6 +77,7 @@
                 <dimension name="width" xvalue="0.870000" />
                 <dimension name="slant" xvalue="0" />
                 <dimension name="weight" xvalue="-0.100000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
         </source>
         <source familyname="Roboto" filename="master_ufo/RobotoCondensed-Bold.ufo" name="RobotoCondensed-Bold.ufo" stylename="Condensed Bold">
@@ -74,6 +85,7 @@
                 <dimension name="width" xvalue="0.870000" />
                 <dimension name="slant" xvalue="0" />
                 <dimension name="weight" xvalue="0.750000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
         </source>
         <source familyname="Roboto" filename="master_ufo/RobotoCondensed-LightItalic.ufo" name="RobotoCondensed-LightItalic.ufo" stylename="Condensed Light Italic">
@@ -81,6 +93,7 @@
                 <dimension name="width" xvalue="0.870000" />
                 <dimension name="slant" xvalue="12" />
                 <dimension name="weight" xvalue="-0.550000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
         </source>
         <source familyname="Roboto" filename="master_ufo/RobotoCondensed-Italic.ufo" name="RobotoCondensed-Italic.ufo" stylename="Condensed Italic">
@@ -88,6 +101,7 @@
                 <dimension name="width" xvalue="0.870000" />
                 <dimension name="slant" xvalue="12" />
                 <dimension name="weight" xvalue="-0.100000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
         </source>
         <source familyname="Roboto" filename="master_ufo/RobotoCondensed-BoldItalic.ufo" name="RobotoCondensed-BoldItalic.ufo" stylename="Condensed Bold Italic">
@@ -95,6 +109,7 @@
                 <dimension name="width" xvalue="0.870000" />
                 <dimension name="slant" xvalue="12" />
                 <dimension name="weight" xvalue="0.750000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
         </source>
         <source familyname="Roboto" filename="master_ufo/RobotoWide-Regular.ufo" name="RobotoWide-Regular.ufo" stylename="Wide Regular">
@@ -102,6 +117,15 @@
                 <dimension name="width" xvalue="1.210000" />
                 <dimension name="slant" xvalue="0" />
                 <dimension name="weight" xvalue="-0.100000" />
+                <dimension name="ytlowercase" xvalue="1082" />
+            </location>
+        </source>
+        <source familyname="Roboto" filename="master_ufo/Roboto-YTLCmax.ufo" name="Roboto-YTLCmax.ufo" stylename="YTLCmax">
+            <location>
+                <dimension name="width" xvalue="1" />
+                <dimension name="slant" xvalue="0" />
+                <dimension name="weight" xvalue="-0.100000" />
+                <dimension name="ytlowercase" xvalue="1200" />
             </location>
         </source>
     </sources>
@@ -111,6 +135,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="0" />
                 <dimension name="weight" xvalue="-1" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -120,6 +145,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="0" />
                 <dimension name="weight" xvalue="-0.550000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -129,6 +155,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="0" />
                 <dimension name="weight" xvalue="0.350000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -138,6 +165,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="0" />
                 <dimension name="weight" xvalue="0.730000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -147,6 +175,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="0" />
                 <dimension name="weight" xvalue="1.125000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -156,6 +185,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="12" />
                 <dimension name="weight" xvalue="-1" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -165,6 +195,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="12" />
                 <dimension name="weight" xvalue="-0.550000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -174,6 +205,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="12" />
                 <dimension name="weight" xvalue="-0.100000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -183,6 +215,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="12" />
                 <dimension name="weight" xvalue="0.350000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -192,6 +225,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="12" />
                 <dimension name="weight" xvalue="0.730000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -201,6 +235,7 @@
                 <dimension name="width" xvalue="1" />
                 <dimension name="slant" xvalue="12" />
                 <dimension name="weight" xvalue="1.125000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -210,6 +245,7 @@
                 <dimension name="width" xvalue="0.870000" />
                 <dimension name="slant" xvalue="0" />
                 <dimension name="weight" xvalue="-0.550000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -219,6 +255,7 @@
                 <dimension name="width" xvalue="0.870000" />
                 <dimension name="slant" xvalue="0" />
                 <dimension name="weight" xvalue="-0.100000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -228,6 +265,7 @@
                 <dimension name="width" xvalue="0.870000" />
                 <dimension name="slant" xvalue="0" />
                 <dimension name="weight" xvalue="0.750000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -237,6 +275,7 @@
                 <dimension name="width" xvalue="0.870000" />
                 <dimension name="slant" xvalue="12" />
                 <dimension name="weight" xvalue="-0.550000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -246,6 +285,7 @@
                 <dimension name="width" xvalue="0.870000" />
                 <dimension name="slant" xvalue="12" />
                 <dimension name="weight" xvalue="-0.100000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -255,6 +295,7 @@
                 <dimension name="width" xvalue="0.870000" />
                 <dimension name="slant" xvalue="12" />
                 <dimension name="weight" xvalue="0.750000" />
+                <dimension name="ytlowercase" xvalue="1082" />
             </location>
             <kerning />
             <info />
@@ -264,6 +305,17 @@
                 <dimension name="width" xvalue="1.210000" />
                 <dimension name="slant" xvalue="0" />
                 <dimension name="weight" xvalue="-0.100000" />
+                <dimension name="ytlowercase" xvalue="1082" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Roboto" stylename="YTLCmax">
+            <location>
+                <dimension name="width" xvalue="1" />
+                <dimension name="slant" xvalue="0" />
+                <dimension name="weight" xvalue="-0.100000" />
+                <dimension name="ytlowercase" xvalue="1200" />
             </location>
             <kerning />
             <info />

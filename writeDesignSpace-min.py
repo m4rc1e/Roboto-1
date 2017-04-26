@@ -8,7 +8,7 @@ familyName = "Roboto"
 
 sources = [
 	dict(path="master_ufo/Roboto-Thin.ufo", name="Roboto-Thin.ufo", location=dict(weight=-1), styleName="Thin", familyName=familyName, copyInfo=False),
-	dict(path="master_ufo/Roboto-Regular.ufo", name="Roboto-Regular.ufo", location=dict(weight=-0.1, width=1.0, slant=0), styleName="Regular", familyName=familyName, copyInfo=True),
+	dict(path="master_ufo/Roboto-Regular.ufo", name="Roboto-Regular.ufo", location=dict(weight=-0.1, width=1.0, slant=0, ytlowercase=1082), styleName="Regular", familyName=familyName, copyInfo=True),
 	dict(path="master_ufo/Roboto-Black.ufo", name="Roboto-Black.ufo", location=dict(weight=1.125), styleName="Black", familyName=familyName, copyInfo=False),
 	
 	dict(path="master_ufo/Roboto-ThinItalic.ufo", name="Roboto-ThinItalic.ufo", location=dict(weight=-1, slant=12), styleName="Thin Italic", familyName=familyName, copyInfo=False),
@@ -24,11 +24,13 @@ sources = [
 	dict(path="master_ufo/RobotoCondensed-BoldItalic.ufo", name="RobotoCondensed-BoldItalic.ufo", location=dict(weight=0.75, width=0.87, slant=12), styleName="Condensed Bold Italic", familyName=familyName, copyInfo=False),
 	
 	dict(path="master_ufo/RobotoWide-Regular.ufo", name="RobotoWide-Regular.ufo", location=dict(width=1.21), styleName="Wide Regular", familyName=familyName, copyInfo=False),
+	dict(path="master_ufo/Roboto-YTLCmax.ufo", name="Roboto-YTLCmax.ufo", location=dict(ytlowercase=1200), styleName="YTLCmax", familyName=familyName, copyInfo=False),
 ]
 axes = [
 	dict(minimum=-1, maximum=1.125, default=-0.1, name="weight", tag="wght", labelNames={"en": "Weight"}, map=[]),
 	dict(minimum=0.87, maximum=1.21, default=1.0, name="width", tag="wdth", labelNames={"en": "Width"}, map=[]),
 	dict(minimum=0, maximum=12, default=0, name="slant", tag="slnt", labelNames={"en": "Slant"}, map=[]),
+	dict(minimum=1082, maximum=1200, default=1082, name="ytlowercase", tag="ytlc", labelNames={"en": "y transparent lowercase"}, map=[]),
 ]
 
 instances = []
